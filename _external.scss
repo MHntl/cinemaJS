@@ -1,0 +1,29 @@
+:root {
+    //Renkler
+    --backgrandcolor: #292929;
+    --seatcolor: #444451;
+    --text-color: #777;
+    --reserved-color: #fff;
+    --selected-color: #f6eb6f;
+    --info-background: rgba(0, 0, 0, 0.2);
+    //Oluşumlar
+    --transition: all 0.5s ease;
+    --box-shadow: 3px 1px rgba(255, 255, 255, 0.7);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: var(--backgrandcolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
